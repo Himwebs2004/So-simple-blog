@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>The blog</title>
+</head>
+<body>
+
+  <ul class="nav-bar">
+    <li><a href="index.html" class="nav-link">Home</a></li>
+    <li><a href="#blog" class="nav-link">Blog</a></li>
+    <li><a href="#Contact" class="nav-link">Contact</a></li>
+    <li><a href="https://github.com/Himwebs2004" class="nav-link">Github</a></li>
+  </ul>
+
+   <div class="img-background">
+    <div class="text-overlay">
+      <h1>Welcome</h1>
+      <p>Hello u're welcome in my web </p>
+    </div>
+    <img id="sliderImage" src="images/c736f83436d84ddc039fe42de40c8ec7.jpg" alt="Slider">
+    <div class="controls">
+      <button onclick="prevImage()">&#10094;</button>
+      <button onclick="nextImage()">&#10095;</button>
+    </div>
+  </div>
+
+  <div class="bg">
+    <h1>The Blog</h1>
+    <h6>This my web example for blog I hope u like it</h6>
+  </div>
+
+  <div class="blog-section" >
+    <h2 id="blog">Blog</h2>
+    <div class="blog-post">
+      <h3>Welcome to My Blog</h3>
+      <p>This is a minimalist black and white blog where I share my thoughts on life, creativity, and technology.
+      Simplicity is beauty, and this blog is all about clean design and clear content.</p>
+      <span>12 june 2024</span>
+    </div>
+  </div>
+
+  <main>
+    <h2>Welcome to My Blog</h2>
+    <p>
+      This is a minimalist black and white blog where I share my thoughts on life, creativity, and technology.
+      Simplicity is beauty, and this blog is all about clean design and clear content.
+    </p>
+
+    <h2>First Post: Why I Chose Simplicity</h2>
+    <p>
+      In a world full of noise and distractions, I believe that simplicity is a form of clarity. 
+      That's why I chose a black and white design—to focus on what matters most: the words. 
+      No flashy colors, no complicated layouts—just pure writing.
+    </p>
+
+    <h2>Stay Connected</h2>
+    <p>
+      If you like what you read, feel free to reach out or follow me on social media. 
+      More posts will be coming soon!
+    </p>
+  </main>
+<div class="Contact-section" id="Contact">
+  <h2>Contact Me</h2>
+  <p>If you have any questions just tell me</p>
+  <form action="" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" class="box" name="name" required 
+           style="margin-bottom:10px; display:block; width:100%; max-width:350px;">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" class="box" name="email" required 
+           style="margin-bottom:10px; display:block; width:100%; max-width:350px;">
+
+    <label for="message">Message</label>
+    <textarea id="message" class="box" name="message" rows="4" required 
+              style="margin-bottom:10px; display:block; width:100%; max-width:350px;"></textarea>
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+</div>
+
+
+  <footer>
+    &copy; 2025 My Minimal Blog From Radhwane Harres. All rights reserved. 
+  </footer>
+
+   <script src="index.js"></script>
+</body>
+</html>
